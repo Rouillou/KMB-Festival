@@ -1,0 +1,933 @@
+/* RESET CSS*/
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+*,
+:after,
+:before {
+    box-sizing: border-box;
+    --bs-gutter-x: 0px;
+    
+}
+
+/* ===============  Taille Polices   ==================*/
+
+.pt-15 {
+    font-size: 8pt !important;
+}
+
+.pt-17 {
+    font-size: 10pt !important;
+}
+
+.pt-20 {
+    font-size: 12pt !important;
+}
+
+.pt-25 {
+    font-size: 18pt !important;
+}
+
+.pt-45 {
+    font-size: 22pt !important;
+}
+
+.pt-80 {
+    font-size: 30pt !important;
+}
+
+/* ===============   Polices   ==================*/
+
+.uniwars-semibold {
+    font-family: "uniwars", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.uniwars-regular {
+    font-family: "uniwars", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.purista-semibold {
+    font-family: "purista-web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.purista-semibold-italic {
+    font-family: "purista-web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.purista-medium {
+    font-family: "purista-web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.purista-medium-italic {
+    font-family: "purista-web", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.purista-light {
+    font-family: "purista-web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.purista-light-italic {
+    font-family: "purista-web", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/* =============== margin =============== */
+
+.header-margin {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.sous-header-margin {
+    margin-left: 210px;
+    margin-right: 210px;
+}
+.partenaires-margin {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.artistes-margin {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.text-content-margin {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+header, footer {
+    background-color: black;
+}
+
+.content-margin {
+    margin-left: 275px;
+    margin-right: 275px;
+}
+.margin-bottom-content {
+    margin-bottom: 200px;
+}
+
+
+/* =============== content =============== */
+
+body {
+    margin-top: 0;
+  }
+  
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.nav-item a:hover {
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+}
+.nav-item h4 {
+    font-size: 15pt !important;
+}
+#imgbilletterie {
+    flex: auto;
+    z-index: -1px;
+}
+#weezevent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9997;
+}
+
+.txt-align-right {
+    text-align: end;
+}
+
+.logo {
+    transition: filter 0.5s;
+}
+
+.logo:hover {
+    filter: brightness(60%); 
+}
+
+
+#btnreserv {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+#btnreserv:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+#fondpartenaire {
+    width : 100%;
+    height: 275px;
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    filter: blur(10px);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.video_conteneur {
+    object-fit: cover; 
+    width: 100%;
+    height: 0;
+}
+
+
+.background_black {
+    position: relative;
+    background-color: black;
+}
+
+.img_page_festival {
+    position: absolute;
+    top: 136.8px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.content-overlay {
+    position: relative;
+    z-index: 1;
+}
+  
+.logo_content {
+    width : 300px; 
+    margin : 25px
+}
+
+.logo_content-white {
+    width : 400px; 
+    margin : auto;
+}
+
+.logo_content_Festival {
+    width : 475px; 
+    margin-left: 130px
+}
+
+.partenaires {
+    width : 350px;
+    margin: 10px;
+}
+
+.logo-reseaux {
+    width : 75px;
+    margin: 10px;
+}
+
+
+.artistes {
+    width: 275px;
+    margin: 20px;
+    align-items: center;
+}
+
+.billeterie-box {
+    margin: 150px 500px;
+}
+
+#contactcard {
+    background-color: black;
+}
+
+#background {
+    background-color: black;
+}
+
+.footer-container {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.footer-text {
+    display: inline;
+    text-decoration: none;
+    color: inherit;
+}
+.footer-text:hover {
+    border-bottom: 1px solid white;
+}
+.logo_footer {
+    width: 150px; 
+    margin: 15px;
+    transition: filter 0.5s;
+}
+
+.logo_footer:hover {
+    filter: brightness(60%); 
+}
+
+.rsfooter {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.rsfooter:hover {
+    filter: brightness(60%); 
+}
+.rs:hover {
+    filter: brightness(60%);
+}
+.footer-billeterie {
+    position: absolute !important;
+    z-index: 9999;
+}
+
+.footer_condition_vente {
+    z-index: 9999;
+}
+
+.fullscreen-dark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+.opaque_background {
+    background-color: rgba(112, 112, 112, 0.50); /* Utilisation de rgba pour définir une opacité spécifique à la couleur de fond */
+}
+
+.attente_text {
+    opacity: 1; /* Définition de l'opacité du texte à 100% */
+}
+
+.langue {
+    margin-bottom: 10px;
+}
+  
+/*  =========  buttons  ========== */
+
+#message {
+    margin-right: 500px;
+    height: 200px;
+}
+
+#acces {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 5px;
+    border-color: white;
+}
+
+.txtbtn {
+    margin: 0% 0% 0px;
+}
+.btnbilletterie {
+    border-radius: 15px; 
+    background-color: black; 
+    border: 2px solid white; 
+    padding: 10px 20px; 
+    color: white;
+}
+.btnbilletterie:hover {
+    background-color: white; 
+    border: 2px solid black; 
+    color: black;
+}
+.txtbtn {
+    margin: 0% 0% 0px;
+}
+
+.btnbilletterie2 {
+    border-radius: 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+}
+
+.btnaccueil2 {
+    border-radius: 14px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 10px 20px;
+    color: white;
+}
+
+.btnaccueil2:hover {
+    border: 2px solid black;
+    color: black;
+}
+
+#anonsouligne {
+    text-decoration: none;
+}
+
+.btnbilletterie2:hover {
+    border: 2px solid black;
+    color: black;
+}
+
+.txtbtn2 {
+    text-decoration: none;
+    margin-right: 500px;
+    margin: 0% 0% 0px;
+    
+}
+#hnavbar {
+    margin-top: 20px;
+}
+#hnavbar:hover {
+    border-bottom: 1px solid white;
+}
+#imgcontact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgfondcontent {
+    width: 55%;
+}
+#emailcontact {
+    position: absolute;
+    z-index: 9998;
+    font-size: 35pt !important;
+}
+
+footer {
+    padding: 10px;
+    border-top: 2px solid #707070;
+    /* Autres styles du footer */
+  }
+
+.disappear-m {
+    display: none;
+}
+header {
+    border-bottom: 2px solid #707070;
+    /* Autres styles du footer */
+  }
+
+
+    /*Menu Burger */
+.header__burger {
+    display: none;
+    }
+    
+.header__burger svg {
+    stroke: #fff;
+    width: 40px;
+    height: 40px;
+}
+.nav-item.active {
+    display: block !important; /* Assurez-vous que les éléments du menu sont affichés */
+  }
+  
+ #toggle {
+    border: 0px;
+    border-color:black;
+ }
+  /* Styles pour les écrans de largeur inférieure ou égale à 767px (téléphones mobiles) */
+
+@media (max-width: 1400px) {
+    /* ===============  Taille Polices   ==================*/
+
+    .pt-15 {
+        font-size: 6pt !important;
+    }
+
+    .pt-17 {
+        font-size: 8pt !important;
+    }
+    
+    .pt-20 {
+        font-size: 10pt !important;
+    }
+
+    .pt-25 {
+        font-size: 16pt !important;
+    }
+
+    .pt-45 {
+        font-size: 20pt !important;
+    }
+
+    .pt-80 {
+        font-size: 28pt !important;
+    }
+
+    .logo_content_Festival {
+        width : 375px; 
+        margin-left: 75px
+    }
+    .header-margin {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .text-content-margin {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .sous-header-margin {
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+
+    #emailcontact {
+        position: absolute;
+        z-index: 9998;
+        font-size: 25pt !important;
+        margin-right: 30px;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    /* ===============  Taille Polices   ==================*/
+
+    .pt-15 {
+        font-size: 6pt !important;
+    }
+
+    .pt-17 {
+        font-size: 8pt !important;
+    }
+    
+    .pt-20 {
+        font-size: 10pt !important;
+    }
+
+    .pt-25 {
+        font-size: 16pt !important;
+    }
+
+    .pt-45 {
+        font-size: 20pt !important;
+    }
+
+    .pt-80 {
+        font-size: 28pt !important;
+    }
+
+    .logo_content_Festival {
+        width : 375px; 
+        margin-left: 75px
+    }
+    .header-margin {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .text-content-margin {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+
+    .sous-header-margin {
+        margin-left: 160px;
+        margin-right: 160px;
+    }
+
+    #emailcontact {
+        position: absolute;
+        z-index: 9998;
+        font-size: 25pt !important;
+        margin-right: 30px;
+    }
+
+}
+
+
+@media (max-width: 850px) {
+      
+    .tablet {
+        display: none;
+    }
+
+    .telephone {
+        display: block;
+    }
+    .header__burger {
+        display: block;
+        cursor: pointer;
+        width:50px;
+    }
+    .menu-link {
+        display: none;
+    }
+    .disappear {
+        display: none;
+    }
+    
+    /* ===============  Taille Polices   ==================*/
+
+    .pt-15 {
+        font-size: 5pt !important;
+    }
+
+    .pt-17 {
+        font-size: 8pt !important;
+    }
+
+    .pt-20 {
+        font-size: 10pt !important;
+    }
+
+    .pt-25 {
+        font-size: 12pt !important;
+    }
+
+    .pt-45 {
+        font-size: 15pt !important;
+    }
+
+    .pt-80 {
+        font-size: 20pt !important;
+    }
+    
+    /* =============== margin =============== */
+
+    .header-margin {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .sous-header-margin {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .partenaires-margin {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .artistes-margin {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .text-content-margin{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .content-margin {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .margin-bottom-content {
+        margin-bottom: 25px;
+    }
+
+    /* =============== content =============== */
+
+    #imgbilletterie {
+        margin-top: 500px;
+        flex: auto;
+        z-index: -1px;
+    }
+
+    .txt-align-right {
+        text-align: end;
+    }
+
+    #fondpartenaire {
+        width : 100%;
+        height: 275px;
+    }
+
+    .back-video {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        filter: blur(10px);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .back-video-responsive {
+        position: absolute;
+        right: 0;
+        top: 109px;
+        bottom: 0;
+        z-index: -1;
+        filter: blur(10px);
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .logo_content-white {
+        width : 300px; 
+        margin : 25px
+    }
+
+    .logo_content_Festival {
+        width : 275px; 
+        margin-left: 100px;
+    }
+
+    .partenaires {
+        width : 275px;
+        margin: 10px;
+        margin-bottom: 30px;
+    }
+
+    .artistes {
+        width: 175px;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .center-last-artiste {
+        align-items: center;
+        margin:auto auto;
+    }
+
+    .billeterie-box {
+        padding-top: 200px;
+        margin: 25px 60px;
+    }
+
+    .footer-container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .footer-text {
+        font-size: 8pt !important;
+        display: inline;
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .logo_footer {
+        transition: filter 0.5s;
+        width: 80px; 
+        margin: 10px;
+    }
+
+    .disappear-m {
+        display:block;
+    }
+
+
+    /*  =========  buttons  ========== */
+
+    .imgfondcontent {
+        width: 88%;
+    }
+    #emailcontact {
+        position: absolute;
+        z-index: 9998;
+        font-size: 20pt !important;
+    }
+
+
+}
+
+   /* Tests */
+
+
+@media (max-width: 850px) {
+    nav .nav-list {
+        display: grid;
+        position: absolute;
+        background:#000000;
+        width: 100%;
+        top: 75px;
+        left: 0;
+        transform: translateY(-100%);
+        z-index: -1;
+        transition: .6s;
+    }
+
+    nav .nav-list .nav-item {
+        text-align: center;
+    }
+
+    nav .navbar-toggler {
+        display: grid !important;
+    }
+}
+
+nav .navbar-toggler {
+    display: none;
+    height: min-content;
+    margin: 18px -10px 0 0;
+    cursor: pointer;
+}
+
+nav .navbar-toggler .bar {
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    border-radius: 10%;
+    transition: .4s;
+}
+
+input {
+    display: none;
+}
+
+
+
+/* Hide nav-link when burger menu is active */
+@media (max-width: 850px) {
+    .row {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+    .nav-link {
+        display: none;
+    }
+    #imgbilletterie {
+        margin-top: 300px;
+    }
+}
+@media (max-width: 440px) {
+
+    /* ===============  Taille Polices   ==================*/
+
+    .pt-15 {
+        font-size: 3pt !important;
+    }
+
+    .pt-17 {
+        font-size: 5pt !important;
+    }
+
+    .pt-20 {
+        font-size: 8pt !important;
+    }
+
+    .pt-25 {
+        font-size: 10pt !important;
+    }
+
+    .pt-45 {
+        font-size: 12pt !important;
+    }
+
+    .pt-80 {
+        font-size: 15pt !important;
+    }
+
+    #emailcontact {
+        position: absolute;
+        z-index: 9998;
+        font-size: 15pt !important;
+    }
+
+    .logo_content-white {
+        width : 200px; 
+        margin : 25px;
+    }
+
+    .artistes {
+        width: 125px;
+        margin: 10px;
+        align-items: center;
+    }
+
+    .logo_content_Festival {
+        width : 225px; 
+        margin-left: 75px
+    }
+
+    .footer-container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .logo-reseaux {
+        width: 50px;
+    }
+}
+
+@media (min-width: 600px) {
+    .tablet {
+       display: block;
+    }
+
+    .telephone {
+         display: none;
+    }
+}
+
+
+@media (max-width: 400px) {
+    #textbox {
+        font-size: 10pt !important;
+    }
+}
+
+@media (max-width:350px) {
+    .logo_content-white {
+        width : 175px; 
+        margin : 0px;
+    }
+    
+}
+@media (max-width: 290px) {
+    #textbox {
+        font-size: 8pt !important;
+        
+    }
+    #emailcontact {
+        position: absolute;
+        z-index: 9998;
+        font-size: 10pt !important;
+    }
+    .logo_content_Festival {
+        margin-left: 15%;
+        margin-right: 0%;
+        width: 200px;
+    }
+
+    .partenaires {
+        width : 200px;
+        margin-left: 20px;
+    }
+
+    .logo_footer {
+        width: 80px; 
+        margin: 0px;
+        transition: filter 0.5s;
+    }
+}
